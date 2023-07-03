@@ -6,7 +6,7 @@
 Работает **стабильно**, **гибко настраивается**, но лучше ничего не изменять, так как мои значения более правдивые к настоящей коллизии.
 
 ### Видеоролик
-*пока что нет :D*
+[![Видео не удалось загрузить :(](https://i.ytimg.com/vi/su7cRxITYMI/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYLiBlKBgwDw==&rs=AOn4CLDUj-vspsRO6V6eB0-yNe53prsv4g)](https://www.youtube.com/watch?v=su7cRxITYMI&t=15s)
 
 ### Информация по значениям
 
