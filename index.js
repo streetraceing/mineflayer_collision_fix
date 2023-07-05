@@ -13,13 +13,6 @@ function BotInit(username, host, port, version) {
 
 const bot = BotInit('bot', 'localhost')
 
-// Асинхронное ожидание (если необходимо)
-function sleep(ms) {
-    return new Promise((resolve) => {
-      setTimeout(resolve, ms);
-    });
-}
-
 function MoveBot(x, y, z) {
     bot.entity.position.translate(x,y,z) // Передвижение бота на нужное количество блоков
 }
@@ -46,5 +39,4 @@ bot.on('physicTick', () => { // Мы ставим physicTick, потому чт�
     let distance = MathCoords(bot.entity.position, entity.position) // Считаем расстояние между ботом и другим игроком
     let collision = CollisionRule(distance[0], distance[3], distance[4]) // Вызываем правило коллизии, которое и двигает бота
     //                              | XZ |       | X |         | Z |
-    //await sleep(50) // # Это может быть нужно, если бот слишком нагружен = реже проверять на толкание. 
 })
